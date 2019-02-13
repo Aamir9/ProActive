@@ -1,0 +1,386 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!-- banner slider-->
+<div class="banner-silder">
+    <div id="JiSlider" class="jislider">
+        <ul>
+            <li>
+                <div class="w3layouts-banner-top">
+                    <div class="bs-slider-overlay">
+                        <div class="container">
+                            <!-- Slide Text Layer -->
+                            <div class="w3l-slide-text">
+                                @*<p class="aos-init aos-animate" data-aos="fade-down">Excepteur sint occaecat cupidatat non proident</p>*@
+                                <h3 data-animation="animated zoomInRight">Corporate Accommodation</h3>
+                                <a href="@Url.Action("Accomodation","Home")" target="_blank" class="button-style" data-animation="animated fadeInDown" data-aos="fade-down">
+                                    View
+                                    Our Services
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3layouts-banner-top w3layouts-banner-top1">
+                    <div class="bs-slider-overlay">
+                        <div class="container">
+                            <!-- Slide Text Layer -->
+                            <div class="w3l-slide-text">
+                                @*<p class="aos-init aos-animate" data-aos="fade-down">Excepteur sint occaecat cupidatat non proident</p>*@
+                                <h3 data-animation="animated zoomInRight">Searching Properties</h3>
+                                <a href="@Url.Action("Property","Home")" target="_blank" class="button-style" data-animation="animated fadeInDown" data-aos="fade-down">
+                                    View
+                                    Our Services
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3layouts-banner-top w3layouts-banner-top2">
+                    <div class="bs-slider-overlay">
+                        <div class="container">
+                            <!-- Slide Text Layer -->
+                            <div class="w3l-slide-text">
+                                @*<p class="aos-init aos-animate" data-aos="fade-down">Excepteur sint occaecat cupidatat non proident</p>*@
+                                <h3 data-animation="animated zoomInRight">Move Management</h3>
+                                <a href="@Url.Action("Management","Home")" target="_blank" class="button-style" data-animation="animated fadeInDown" data-aos="fade-down">
+                                    View
+                                    Our Services
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3layouts-banner-top w3layouts-banner-top3">
+                    <div class="bs-slider-overlay">
+                        <div class="container">
+                            <!-- Slide Text Layer -->
+                            <div class="w3l-slide-text">
+                                @*<p class="aos-init aos-animate" data-aos="fade-down">Excepteur sint occaecat cupidatat non proident</p>*@
+                                <h3 data-animation="animated zoomInRight">Employees Relocation</h3>
+                                <a href="@Url.Action("Relocation","Home")" target="_blank" class="button-style" data-animation="animated fadeInDown" data-aos="fade-down">
+                                    View
+                                    Our Services
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            @*<li>
+            <div class="w3layouts-banner-top w3layouts-banner-top4">
+                <div class="bs-slider-overlay">
+                    <div class="container">
+                        <!-- Slide Text Layer -->
+                        <div class="w3l-slide-text">
+                            <p class="aos-init aos-animate" data-aos="fade-down">Excepteur sint occaecat cupidatat non proident</p>
+                            <h3 data-animation="animated zoomInRight">Enjoy the benefits of outdoor construction</h3>
+                            <a href="services.html" target="_blank" class="button-style" data-animation="animated fadeInDown" data-aos="fade-down">
+                                View
+                                Our Services
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>*@
+        </ul>
+    </div>
+</div>
+<!-- //banner slider -->
+<!-- banner bottom -->
+<div class="middle-agile-2 py-5">
+    <div class="py-xl-5 py-lg-3">
+        <div class="d-flex t-in">
+            <div class="col-lg-5 text-info-sec p-0">
+                <img src="/Content/web/images/b2.jpg" alt=" " class="img-fluid" />
+            </div>
+            <div class="col-lg-7 text-info-sec bg-light">
+                @*<h5 class="what-title text-dark my-3">About</h5>*@
+                <p class="whats-text mb-4">
+                    Providing Serviced Accommodation for national and multinational corporate clientele ranging from various job roles within professional sectors such as construction, pharmaceuticals, IT and banking.
+
+                </p>
+                <p class="whats-text">
+                    We have a different range of bedroom apartment across the UK as well as work with a broad network of serviced accommodation providers.
+
+                </p>
+                <a href="@Url.Action("About","Home")" target="_blank" class="btn button-style-wthree mt-sm-5 mt-4">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //banner bottom -->
+<!-- services -->
+<div class="services text-center pb-5" id="services">
+    <div class="container pb-xl-5 pb-lg-3">
+        <h3 class="tittle text-center text-uppercase text-dark font-weight-bold mb-sm-5 mb-4">Our Services</h3>
+        <div class="row box2">
+            <div class="col-md-3 col-6 s-1">
+                <a href="@Url.Action("Accomodation","Home")" target="_blank">
+                    <div class="view view-fifth">
+                        <i class="fab fa-servicestack"></i>
+                        <div class="mask">
+                            <h4>Corporate Accommodation</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-6 s-1">
+                <a href="@Url.Action("Property","Home")" target="_blank">
+                    <div class="view view-fifth">
+                        <i class="fa fa-search"></i>
+                        <div class="mask">
+                            <h4>Search Property</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-6 s-1 mt-md-0 mt-4">
+                <a href="@Url.Action("Management","Home")" target="_blank">
+                    <div class="view view-fifth">
+                        <i class="fas fa-tasks"></i>
+                        <div class="mask">
+                            <h4>Move Managment</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-6 s-1 mt-md-0 mt-4">
+                <a href="@Url.Action("Relocation","Home")" target="_blank">
+                    <div class="view view-fifth">
+                        <i class="fa fa-location-arrow"></i>
+                        <div class="mask">
+                            <h4>Employees Relocation</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a href="@Url.Action("Services","Home")" target="_blank" class="btn button-style-wthree mt-sm-5 mt-4 mb-4">View More</a>
+    </div>
+</div>
+<!-- //services -->
+<!-- middle section -->
+<div class="middle-w3l text-center py-5">
+    <div class="container py-xl-5 py-lg-3">
+        <h3 class="tittle text-center text-uppercase text-white font-weight-bold mb-sm-4 mb-3 mt-4">
+            It’s pleasant to be at home!
+        </h3>
+        <p class="text-white mx-auto">
+            We appreciate that assignees property requirements are different.
+            It’s not only the property but also the locations which we consider when working for your assignees to provide the best property solution.
+        </p>
+        @*<a href="about.html" class="btn button-style-wthree mt-sm-5 mt-4 mb-4">Read More</a>*@
+    </div>
+</div>
+<!-- //middle section -->
+<!-- middle section two -->
+<div class="middle-agile-2 py-5">
+    <div class="py-xl-5 py-lg-3">
+        <div class="d-flex t-in">
+            <div class="col-lg-5 text-info-sec p-0">
+                <img src="/Content/web/images/b1.jpg" alt=" " class="img-fluid" />
+            </div>
+            <div class="col-lg-7 text-info-sec bg-light">
+                <h5 class="what-title text-dark my-3">Corporate Accommodation</h5>
+                <p class="whats-text mb-4">
+                    Our Accommodation Advisors search accommodation all over the UK to meet your requirements. Our unique system takes all accommodations into account rather than relying on a limited and rigid database of providers, meaning we have the scope to find the right property for you.
+                </p>
+                <p class="whats-text">
+                    Once we've found options, every booking is individually negotiated to get you the very best rate and cancellation policies (we understand how important flexibility is!).
+                </p>
+                @*<a href="about.html" class="btn button-style-wthree mt-sm-5 mt-4">Read More</a>*@
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //middle section two -->
+
+<!-- feedback -->
+<section class="news py-5" id="feedback">
+    <div class="container py-xl-5 py-lg-3">
+        <h3 class="tittle text-center text-uppercase text-white font-weight-bold mb-sm-5 mb-4">Recent FeedBack</h3>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="feedback-info bg-white py-5 px-4">
+                    @*<h4 class="mb-2">
+                        Tempor incididunt ut labore hytnm
+                    </h4>*@
+                    <p>The guys were really professional, fun, approachable and didn’t mind when I changed my living requirements.</p>
+                    <div class="feedback-grids mt-4">
+                        <div class="feedback-img">
+                            <img src="/Content/web/images/te1.jpg" class="img-fluid rounded-circle" alt="" />
+                        </div>
+                        <div class="feedback-img-info">
+                            <h5>Mary Jane</h5>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback-info bg-white py-5 px-4">
+                    @*<h4 class="mb-2">
+                        Tempor incididunt ut labore hytnm
+                    </h4>*@
+                    <p>Team is very friendly and honest agent who answered all the questions I had and went the extra mile.</p>
+                    <div class="feedback-grids mt-4">
+                        <div class="feedback-img">
+                            <img src="/Content/web/images/te3.jpg" class="img-fluid rounded-circle" alt="" />
+                        </div>
+                        <div class="feedback-img-info">
+                            <h5>Olivia Ruth</h5>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback-info bg-white py-5 px-4">
+                    @*<h4 class="mb-2">
+                        Tempor incididunt ut labore hytnm
+                    </h4>*@
+                    <p>It was great to have Andrew giving us a tour round the city and suburbs, with all his knowledge and advise he gave us.</p>
+                    <div class="feedback-grids mt-4">
+                        <div class="feedback-img">
+                            <img src="/Content/web/images/te2.jpg" class="img-fluid rounded-circle" alt="" />
+                        </div>
+                        <div class="feedback-img-info">
+                            <h5>Blake Joe</h5>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback-info bg-white py-5 px-4">
+                    @*<h4 class="mb-2">
+                        Tempor incididunt ut labore hytnm
+                    </h4>*@
+                    <p>Team is very friendly and honest agent who answered all the questions I had and went the extra mile.</p>
+                    
+                    <div class="feedback-grids mt-4">
+                        <div class="feedback-img">
+                            <img src="/Content/web/images/te1.jpg" class="img-fluid rounded-circle" alt="" />
+                        </div>
+                        <div class="feedback-img-info">
+                            <h5>Mary Jane</h5>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback-info bg-white py-5 px-4">
+                    @*<h4 class="mb-2">
+                        Tempor incididunt ut labore hytnm
+                    </h4>*@
+                    <p>The guys were really professional, fun, approachable and didn’t mind when I changed my living requirements.</p>
+                    <div class="feedback-grids mt-4">
+                        <div class="feedback-img">
+                            <img src="/Content/web/images/te3.jpg" class="img-fluid rounded-circle" alt="" />
+                        </div>
+                        <div class="feedback-img-info">
+                            <h5>Olivia Ruth</h5>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback-info bg-white py-5 px-4">
+                    @*<h4 class="mb-2">
+                        Tempor incididunt ut labore hytnm
+                      </h4>*@
+                    <p>The guys were really professional, fun, approachable and didn’t mind when I changed my living requirements.</p>
+                    <div class="feedback-grids mt-4">
+                        <div class="feedback-img">
+                            <img src="/Content/web/images/te2.jpg" class="img-fluid rounded-circle" alt="" />
+                        </div>
+                        <div class="feedback-img-info">
+                            <h5>Blake Joe</h5>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback-info bg-white py-5 px-4">
+                    @*<h4 class="mb-2">
+                        Tempor incididunt ut labore hytnm
+                    </h4>*@
+                     <p>Team is very friendly and honest agent who answered all the questions I had and went the extra mile to get all the information.</p>
+                 
+                    <div class="feedback-grids mt-4">
+                        <div class="feedback-img">
+                            <img src="/Content/web/images/te1.jpg" class="img-fluid rounded-circle" alt="" />
+                        </div>
+                        <div class="feedback-img-info">
+                            <h5>Mary Jane</h5>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback-info bg-white py-5 px-4">
+                    @*<h4 class="mb-2">
+                        Tempor incididunt ut labore hytnm
+                    </h4>*@
+                    <p>It was great to have Andrew giving us a tour round the city and suburbs, with all his knowledge and advise he gave us.</p>
+                    <div class="feedback-grids mt-4">
+                        <div class="feedback-img">
+                            <img src="/Content/web/images/te3.jpg" class="img-fluid rounded-circle" alt="" />
+                        </div>
+                        <div class="feedback-img-info">
+                            <h5>Olivia Ruth</h5>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="feedback-info bg-white py-5 px-4">
+                    @*<h4 class="mb-2">
+                        Tempor incididunt ut labore hytnm
+                    </h4>*@
+                    <p>Team is very friendly and honest agent who answered all the questions I had and went the extra mile.</p>
+                    <div class="feedback-grids mt-4">
+                        <div class="feedback-img">
+                            <img src="/Content/web/images/te2.jpg" class="img-fluid rounded-circle" alt="" />
+                        </div>
+                        <div class="feedback-img-info">
+                            <h5>Blake Joe</h5>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //feedback -->
+<!-- subscribe -->
+<div class="subscribe-info-w3l text-center py-5">
+    <div class="container py-xl-5 py-lg-3">
+        <h3 class="tittle text-center text-uppercase text-dark font-weight-bold mb-sm-4 mb-3">
+            Subscribe Our News Letter
+        </h3>
+        <p class="mb-md-5 mb-3">
+            For keeping upto date to you please submit your Email...
+        </p>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Enter your Email..." required="">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+<!-- //subscribe -->
